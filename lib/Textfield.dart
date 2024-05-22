@@ -8,7 +8,9 @@ class OurTextfield extends StatefulWidget {
 }
 
 class _OurTextfieldState extends State<OurTextfield> {
-  bool clicked = true;
+  bool click = true;
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,7 +43,7 @@ class _OurTextfieldState extends State<OurTextfield> {
                 ),
                 SizedBox(height: 40,),
                 TextFormField(
-                  obscureText:clicked,
+                  obscureText:click,
                   decoration: InputDecoration(
                       hintText: "Password",
                       // hintTextDirection: TextDirection.rtl,
@@ -53,7 +55,7 @@ class _OurTextfieldState extends State<OurTextfield> {
                       suffixIcon:IconButton(
                           onPressed: (){
                            setState(() {
-                             clicked =! clicked;
+                             click =! click;
                            });
                           },
                           icon: Icon(
