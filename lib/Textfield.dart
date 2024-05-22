@@ -45,13 +45,15 @@ class _OurTextfieldState extends State<OurTextfield> {
                 TextFormField(
                   obscureText:click,
                   decoration: InputDecoration(
-                      hintText: "Password",
+                      hintText: "pws",
                       // hintTextDirection: TextDirection.rtl,
                       prefixIcon: Icon(Icons.lock),
                       border:OutlineInputBorder(
                         borderRadius: BorderRadius.circular(17),
                       ),
-                      prefixIconColor: Colors.red,
+                      prefixIconColor: Colors.blue,
+
+
                       suffixIcon:IconButton(
                           onPressed: (){
                            setState(() {
@@ -60,8 +62,8 @@ class _OurTextfieldState extends State<OurTextfield> {
                           },
                           icon: Icon(
                                   clicked
-                                  ?Icons.visibility
-                                  :Icons.visibility_off
+                                  ?Icons.visibility_outlined
+                                  :Icons.visibility_off_outlined
 
                           )
                       ),
