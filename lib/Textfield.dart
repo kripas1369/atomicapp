@@ -26,12 +26,12 @@ class _OurTextfieldState extends State<OurTextfield> {
                 SizedBox(height: 40,),
                 TextFormField(
                   decoration: InputDecoration(
-                    prefixIcon: Icon(Icons.email),
-                    prefixIconColor: Colors.red,
+                    prefixIcon: Icon(Icons.e_mobiledata),
+                    prefixIconColor: Colors.blue,
                     labelText:"Email",
                     // labelStyle: TextStyle(color: Colors.red),
                     helperText: "Please enter your valid email",
-                    counterText: "email",
+                    counterText: "Email",
                     // filled: true,
                     // fillColor: Colors.grey,
                     // contentPadding: EdgeInsets.all(10),
