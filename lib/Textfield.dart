@@ -61,18 +61,11 @@ class _OurTextfieldState extends State<OurTextfield> {
                            });
                           },
                           icon: Icon(
-                                  clicked
+                                  click
                                   ?Icons.visibility_outlined
                                   :Icons.visibility_off_outlined
 
                           )
-
-
-
-
-
-
-
                       ),
                       suffixIconColor: Colors.grey
                   ),
