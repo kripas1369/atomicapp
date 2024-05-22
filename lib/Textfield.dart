@@ -45,7 +45,7 @@ class _OurTextfieldState extends State<OurTextfield> {
                 TextFormField(
                   obscureText:click,
                   decoration: InputDecoration(
-                      hintText: "Password",
+                      hintText: "pws",
                       // hintTextDirection: TextDirection.rtl,
                       prefixIcon: Icon(Icons.lock),
                       border:OutlineInputBorder(
